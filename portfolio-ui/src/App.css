@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+@media (max-width: 768px) {
+  /* adjust styles for smaller screens */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -43,6 +47,8 @@
   background-color: #097cc1;
   color: #FBEAE7;
   z-index: 100;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
 }
 
 .navbar-nav {
@@ -67,6 +73,18 @@
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+/* styles for smaller screens (mobile) */
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items vertically */
+  }
+
+  .nav-item {
+    margin-right: 10px; /* Adjust margin for smaller screens */
+  }
 }
 
 html, body {
