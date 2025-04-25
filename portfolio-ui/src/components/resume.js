@@ -8,11 +8,7 @@ export default function Resume() {
             <Container className="component-padding">
                 <Card className="resume-card">
                     <h1>Resume</h1>
-                    <h2 className="left-align">Work Experience</h2>
-                    <h3 className="left-align">Software Engineer @ General Motors</h3>
-                    <h3 className="left-align">January 2021 - Present</h3>
-                    <p className="paragraph">In my role as a software engineer, I play a pivotal role in contributing to the successful production deployments of both front-end and back-end Java and ReactJS applications.  I actively participate in various phases of the development cycle, collaborating with cross-functional teams to ensure the seamless release of high-quality software solutions.  I have had the opportunity to innovate by creating PowerBI reports, providing essential insights into system performance and user engagement, and I actively participated in migrating batch jobs to a new platform, ensuring uninterrupted operations and enhanced system performance.</p>
-                    <h4 className="left-align">Skills</h4>
+                    <h2 className="left-align">Skills</h2>
                     <ul className="unordered-list-item">
                         <li>Proficient in programming languages such as Java, ReactJS, and Javascript/Typescript</li>
                         <li>Knowledge and practice in software development methodologies such as Agile and Scaled Agile</li>
@@ -30,6 +26,23 @@ export default function Resume() {
                         <li>Understanding of software testing and quality assurance processes</li>
                         <li>Strong problem-solving and critical thinking skills</li>
                     </ul>
+                    <h2 className="left-align">Work Experience</h2>
+                    <h3 className="left-align">Software Engineer II @ Arthrex</h3>
+                    <h3 className="left-align">May 2024 - Present</h3>
+                    <p className="paragraph">In my current role at Arthrex, I work on the company's field inventory management mobile apps that assists in tracking the company's products before, after and during the consignment process.  The cross-platform app is built with Microsoft's .NET Maui framework that uses C# on the backend and XAML on the frontend.</p>
+
+                    <h4 className="left-align">Experience</h4>
+                    <ul className="unordered-list-item">
+                        <li>Contributed to the successful release of a mobile app rewrite from Xamarin to .NET MAUI, actively supporting the launch through bug fixes and hypercare, ensuring a smooth transition for users</li>
+                        <li>Led efforts to expand mobile app availability to Canadian users by implementing globalization features and ensuring compliance with Canadian regulations through the removal of private patient information</li>
+                        <li>Played a key development role in implementing a comprehensive Audit feature for the cross-platform mobile app, enabling users to create, edit, perform, and complete both planned and ad-hoc audits</li>
+                        <li>Quickly learned the deployment and release process for the cross-platform mobile app, taking over iOS and Android releases within six months to ensure smooth and timely updates</li>
+                    </ul>
+
+                    {/* General Motors */}
+                    <h3 className="left-align">Software Engineer @ General Motors</h3>
+                    <h3 className="left-align">January 2021 - May 2024</h3>
+                    <p className="paragraph">In my role as a software engineer, I played a pivotal role in contributing to the successful production deployments of both front-end and back-end Java and ReactJS applications.  I actively participated in various phases of the development cycle, collaborating with cross-functional teams to ensure the seamless release of high-quality software solutions.  I had the opportunity to innovate by creating PowerBI reports, providing essential insights into system performance and user engagement, and I actively participated in migrating batch jobs to a new platform, ensuring uninterrupted operations and enhanced system performance.</p>
                     <h4 className="left-align">Experience</h4>
                     <ul className="unordered-list-item">
                         <li>Contributed to the entire lifecycle of a full-stack web application from requirements gathering to building a Spring Boot Java backend and ReactJS frontend, and a successful production deployment to significantly enhance efficiency in appointment detail access for service lane advisors and technicians</li>
